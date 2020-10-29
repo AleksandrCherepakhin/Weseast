@@ -683,6 +683,7 @@ label{
   
 .lenta {
   width: 9%;
+  height: 5%;
 }
   
 .first_text h1{
@@ -933,7 +934,7 @@ label{
 @media screen and (max-width: 560px) {
 
  .lenta {
-   width: 9%;
+   width: 20%;
 }
 
 body {
@@ -1214,6 +1215,67 @@ label{
   font-weight: 400;
   font-size: 1rem;
   text-align: center;
+}
+
+@media (min-width: 320px) {
+
+  .lenta {
+    width: 18%;
+    height: 7%;
+  }
+
+  .lenta p {
+    font-weight: 700;
+    font-size: 0.6rem;
+  }
+
+  .first_text h1{
+    left: 5%;
+    bottom: 0px;
+    margin: 0;
+    font-size: 5rem;
+    line-height: 3.7rem;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .lenta {
+    width: 20%;
+    height: 5%;
+  }
+
+  .lenta p {
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+
+  .first_text h1{
+    left: 5%;
+    bottom: 0px;
+    margin: 0;
+    font-size: 10rem;
+    line-height: 7rem;
+  }
+}
+
+
+@media (max-width: 667px) {
+
+  .lenta {
+    width: 30%;
+    height: 5%;
+  }
+
+  .lenta p {
+    font-weight: 700;
+    font-size: 0.7rem;
+  }
+
+  .first_text h1{
+    font-size: 4rem;
+    line-height: 3rem;
+  }
 }
 
 
