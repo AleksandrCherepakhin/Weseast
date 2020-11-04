@@ -1,3 +1,9 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 body {
   width: 100%;
   height: 100vh;
@@ -8,9 +14,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   }
   
-* {
-  box-sizing: border-box;
-}
   /* Main page */
   /* animate box "scroll down" */
 
@@ -19,11 +22,11 @@ body {
   justify-content: flex-end;
   align-items: center;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   position: absolute;
-  z-index: 555;
+  z-index: 7000;
 }
-  
+
 .lenta {
   display: flex;
   justify-content: center;
@@ -36,6 +39,7 @@ body {
   animation: mymove 4s;
   animation-iteration-count: infinite; 
 }
+
 
   @keyframes mymove {
     0%   {top: 0px;}
@@ -61,8 +65,8 @@ body {
   background: -o-linear-gradient(135deg, #ffa63d, #ff3d77, #6a52ff, #3cf0c5);
   background: linear-gradient(-45deg, #ffa63d, #ff3d77, #6a52ff, #3cf0c5);
   background-size: 600%;
-  -webkit-animation: rainbow-effect 6s linear infinite;
-  animation: rainbow-effect 6s linear infinite;
+  -webkit-animation: rainbow-effect 10s linear infinite;
+  animation: rainbow-effect 10s linear infinite;
 }
 
  
@@ -89,7 +93,7 @@ body {
   position: fixed;
   z-index: 9999; 
   padding: 0;
-  transition: all .5s ease;
+  transition: all 1s ease;
 }
 
 .logo img {
@@ -102,7 +106,7 @@ body {
 }
 
 .nav{
-  text-align: right;
+  text-align: left;
   height: 10%;
   line-height: 70px;
 }
@@ -639,7 +643,7 @@ label{
   align-items: center;
   justify-content: center; 
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: 5.5rem;
   text-transform: uppercase;
   text-align: center;
   line-height: 140%;
@@ -675,8 +679,8 @@ label{
   background: -o-linear-gradient(135deg, #ffa63d, #ff3d77, #6a52ff, #3cf0c5);
   background: linear-gradient(-45deg, #ffa63d, #ff3d77, #6a52ff, #3cf0c5);
   background-size: 600%;
-  -webkit-animation: rainbow-effect 6s linear infinite;
-  animation: rainbow-effect 6s linear infinite;
+  -webkit-animation: rainbow-effect 10s linear infinite;
+  animation: rainbow-effect 10s linear infinite;
 }
 
 /* Large desktops and laptops */
@@ -1170,7 +1174,7 @@ label{
 
 }
 
-@media (min-width: 375px) {
+@media (min-width: 376px) {
 
   label {
     z-index: 999;
