@@ -195,7 +195,7 @@ label{
   height: 100vh;
   display: table-cell;
   overflow: hidden;
-  background-color: #be2c2a;
+  background-color: #c83c2a;
 }
   
 .text {
@@ -228,7 +228,7 @@ label{
   height: 100vh;
   display: table-cell;
   overflow: hidden;
-  background-color: #be131e;
+  background-color: #000000;
 }
   
 .text_2 {
@@ -242,7 +242,7 @@ label{
   z-index: 3;
   margin: 0;
   padding: 0;
-  background-color: #994cd5;
+  background-color: #7a58f7;
   color: rgb(9, 8, 17);
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
@@ -257,7 +257,7 @@ label{
   height: 100vh;
   display: table-cell;
   overflow: hidden;
-  background-color: #000000;
+  background-color: #6c369f;
 }
   
 .text_3 {
@@ -286,7 +286,7 @@ label{
   height: 100vh;
   display: table-cell;
   overflow: hidden;
-  background-color: #000000;
+  background-color: #0a193b;
 }
   
 .text_4 {
@@ -315,7 +315,7 @@ label{
   height: 100vh;
   display: table-cell;
   overflow: hidden;
-  background-color: #000000;
+  background-color: #d42d39;
 }
   
 .text_5 {
@@ -565,6 +565,12 @@ label{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+video {
+  
+  height: 100%;
+  width: 100%;
 }
 
 @keyframes animate {
